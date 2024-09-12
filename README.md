@@ -1,10 +1,10 @@
 # HanyangSilicon
 
-![RISC-V Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ARISC-V-logo.svg&psig=AOvVaw2KRjAum8QrToubstT9sBQa&ust=1726258188113000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDii4KbvogDFQAAAAAdAAAAABAE) <!-- Replace with actual RISC-V logo URL -->
+![RISC-V Logo](https://upload.wikimedia.org/wikipedia/commons/9/9a/RISC-V-logo.svg) <!-- Replace with actual RISC-V logo URL -->
 
 **HanyangSilicon** 프로젝트는 한양대학교의 학부생, **차현우**가 설계한 RISC-V 기반의 칩셋과 부트로더를 포함합니다. 이 프로젝트는 다음과 같은 주요 목표를 가지고 있습니다:
 
-![Semiconductor Design](https://www.google.com/url?sa=i&url=https%3A%2F%2Fnews.lxsemicon.com%2F3864&psig=AOvVaw06D_hCCkXNO8tqCxh68ThE&ust=1726258233847000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOj24ZibvogDFQAAAAAdAAAAABAE) <!-- Replace with actual semiconductor design image URL -->
+![Semiconductor Design](https://news.lxsemicon.com/wp-content/uploads/2023/01/230112_LX%EC%84%B8%EB%AF%B8%EC%BD%98_%EB%B0%98%EB%8F%84%EC%B2%B4%EC%9D%B4%EC%95%BC%EA%B8%B0_1_%EB%89%B4%EC%8A%A4%EC%B1%84%EB%84%90%EC%9B%90%EA%B3%A0_02.jpg) <!-- Replace with actual semiconductor design image URL -->
 
 ## 프로젝트 주요 목표
 
