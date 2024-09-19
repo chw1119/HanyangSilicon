@@ -1,4 +1,17 @@
-module hy_riscv_cpu(
+module hy_riscv_cpu
+#(
+     parameter SUPPORT_MULDIV   = 1
+    ,parameter SUPPORT_SUPER    = 0
+    ,parameter SUPPORT_MMU      = 0
+    ,parameter SUPPORT_LOAD_BYPASS = 1
+    ,parameter SUPPORT_MUL_BYPASS = 1
+    ,parameter SUPPORT_REGFILE_XILINX = 0
+    ,parameter EXTRA_DECODE_STAGE = 0
+    ,parameter MEM_CACHE_ADDR_MIN = 32'h80000000
+    ,parameter MEM_CACHE_ADDR_MAX = 32'h8fffffff
+)
+
+(
     input clk,
     input reset,
     input push_ops,
