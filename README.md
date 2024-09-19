@@ -6,6 +6,8 @@
 
 ![Semiconductor Design](https://news.lxsemicon.com/wp-content/uploads/2023/01/230112_LX%EC%84%B8%EB%AF%B8%EC%BD%98_%EB%B0%98%EB%8F%84%EC%B2%B4%EC%9D%B4%EC%95%BC%EA%B8%B0_1_%EB%89%B4%EC%8A%A4%EC%B1%84%EB%84%90%EC%9B%90%EA%B3%A0_02.jpg) <!-- Replace with actual semiconductor design image URL -->
 
+![image](https://github.com/user-attachments/assets/0ac8be3a-4dc0-48e1-bc2e-98915966f84d)
+
 ## 프로젝트 주요 목표
 
 - **RISC-V 기반 칩셋**: 혁신적이고 고성능의 RISC-V 아키텍처를 기반으로 한 칩셋을 설계하여, 최신 기술을 활용한 효율적인 데이터 처리와 연산을 구현합니다.
