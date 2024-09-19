@@ -1,4 +1,4 @@
-module riscv_cpu(
+module hy_riscv_cpu(
     input clk,
     input reset,
     input push_ops,
