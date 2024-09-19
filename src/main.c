@@ -1,4 +1,5 @@
 #include "include/interrupt.h"
+#include "include/console.h"
 #include "include/memory.h"
 
 

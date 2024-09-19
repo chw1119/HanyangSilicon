@@ -3,12 +3,13 @@
 
 #include "memory.h"
 
+#define __NAKED __attribute__((naked))
 // Define interrupt IDs
 
-#define __NAKED__ __attribute__((naked))
 
 // Define interrupt handler prototypes
-#define SET_INTERRUPT(ID) void INTERRUPT_##ID(void)
+#define SET_INTERRUPT(ID) void __NAKED INTERRUPT_##ID(void)
+#define DEF_INTERRUPT(ID) void __NAKED INTERRUPT_##ID(void)
 
 // Declare the interrupt handler functions
 
