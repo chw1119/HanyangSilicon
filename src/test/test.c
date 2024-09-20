@@ -1,13 +1,12 @@
 
-#include "./../include/asm_intrinsic.h"
 
-__attribute__((naked)) void naked_test();
+#define
 
-__attribute__((naked)) void naked_test(){
+extern void _exit(void);
 
-}
+
 
 int main()
 {
-    naked_test();
+    
 }

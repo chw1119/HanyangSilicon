@@ -353,6 +353,13 @@ __NAKED void load_register_A31(int v) {
         : "a31"
     );
 }
+
+
+static inline uint32_t r_mhartid() {
+    uint32_t x;
+    asm volatile("csrr %0, mhartid" : "=r" (x) );
+    return x;
+}
     
     
 #endif

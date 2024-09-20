@@ -3,6 +3,7 @@
 
 #include "stdint.h"
 #include "memory.h"
+#include "csr.h"
 
 #define REG_RA                         1
 #define REG_SP                         2
@@ -28,7 +29,7 @@
 #define CAUSE_PAGE_FAULT_LOAD          13
 #define CAUSE_PAGE_FAULT_STORE         15
 #define CAUSE_INTERRUPT                (1 << 31)
-
+#define CAUSE_MAX_EXC                  (CAUSE_PAGE_FAULT_STORE + 1)
 
 
 ///////////////////Type Field///////////////////
@@ -44,7 +45,7 @@ typedef struct irq_context *(*fp_exception)(struct irq_context *ctx);
 typedef struct irq_context *(*fp_irq)(struct irq_context *ctx);
 typedef struct irq_context *(*fp_syscall)(struct irq_context *ctx);
 
-struct irq_context * exception_handler(struct irq_context *ctx);
+struct irq_context*  exception_handler(struct irq_context* ctx);
 void                 exception_set_irq_handler(fp_irq irq_handler);
 void                 exception_set_syscall_handler(fp_syscall syscall_handler);
 void                 exception_set_handler(int cause, fp_exception handler);
